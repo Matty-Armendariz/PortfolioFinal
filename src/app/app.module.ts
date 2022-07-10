@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { MaterialModule } from './material/material.module';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    SideNavComponent
+    SideNavComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

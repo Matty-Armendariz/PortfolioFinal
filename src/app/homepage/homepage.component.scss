@@ -1,0 +1,64 @@
+html, body{
+    max-width:100%;
+    max-height:100%;
+    margin:0;
+    padding:0;
+    background-color: #1c1d25;
+    overflow-x: auto;
+}
+
+.toolbar{
+    width: 100%;
+}
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0px;
+    line-height: 1.25;
+    width: auto;
+}
+
+p{
+    margin-top:40px;
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.hero-text{
+    margin-bottom: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.hero-area{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+
+.socials{
+    margin-right: 30px;
+    padding-bottom: 200px;
+    width: 100px;
+}
+
+.social-icon{
+    padding: 10px;
+    justify-self: right;
+    align-self: right;
+}
+
