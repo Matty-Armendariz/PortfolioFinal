@@ -1,1 +1,14 @@
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="showSidenav" mode="side">
+    <div class="nav-options">
+      <a routerLink="/about-me" class="option">About Me</a>
+      <a href="" class="option">Home</a>
+      <a href="" class="option">Projects</a>
+      <a href="" class="option">Resume</a>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
 
+</mat-sidenav-container>

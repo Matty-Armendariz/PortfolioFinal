@@ -1,0 +1,19 @@
+mat-sidenav-container{
+    height: 95vh;
+}
+
+mat-sidenav{
+    width: 200px;
+    background-color: lightblue;
+}
+
+.nav-options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.option{
+    margin-bottom: 10px;
+}

@@ -1,7 +1,7 @@
 <mat-toolbar class="toolbar">
   <mat-toolbar-row>
     <button mat-button>
-      <mat-icon class="menu-icon">menu</mat-icon>
+      <mat-icon class="menu-icon" (click)="toggleMenu()">menu</mat-icon>
     </button>
     <button mat-button>
       <mat-icon class="home-icon">home</mat-icon>
@@ -9,3 +9,4 @@
     </button>
   </mat-toolbar-row>
 </mat-toolbar>
+<app-side-nav [showSidenav]="showSidenav"></app-side-nav>
