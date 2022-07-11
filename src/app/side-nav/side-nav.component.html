@@ -1,10 +1,18 @@
 <mat-sidenav-container>
   <mat-sidenav [(opened)]="showSidenav" mode="side">
     <div class="nav-options">
-      <a routerLink="/about-me" class="option">About Me</a>
-      <a href="" class="option">Home</a>
-      <a href="" class="option">Projects</a>
-      <a href="" class="option">Resume</a>
+      <button mat-button class="option" (click)="showSidenav = false">
+        <mat-icon>person</mat-icon><a routerLink="/about-me"> About Me</a>
+      </button>
+      <button mat-button class="option" (click)="showSidenav = false">
+        <mat-icon>home</mat-icon><a routerLink="/home"> Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      </button>
+      <button mat-button class="option" (click)="showSidenav = false">
+        <mat-icon>computer</mat-icon><a routerLink="/projects"> Projects&nbsp;&nbsp;</a>
+      </button>
+      <button mat-button class="option" (click)="showSidenav = false">
+        <mat-icon>insert_drive_file</mat-icon><a routerLink="/resume"> Resume&nbsp;&nbsp;</a>
+      </button>
     </div>
   </mat-sidenav>
   <mat-sidenav-content>

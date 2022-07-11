@@ -62,3 +62,106 @@ p{
     flex-direction: row;
 }
 
+.hero-image {
+  position: relative;
+  width: 50%;
+  height: 350px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.cube {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-25deg) skew(25deg);
+}
+
+.cube:before {
+  position: absolute;
+  content: "";
+  width: 21px;
+  height: 100%;
+  transform: skewY(-45deg);
+  left: -20px;
+  bottom: -10px;
+}
+
+.cube:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 21px;
+  transform: skewX(-45deg);
+  left: -10px;
+  bottom: -20px;
+}
+
+#html {
+  left: 100px;
+  bottom: 80px;
+  background-image: url("images/html-square.png");
+  background-size: cover;
+  background-color: rgb(175, 119, 227);
+  box-shadow: -60px 60px 20px rgb(50 50 50/ 15%);
+}
+
+#html:before {
+  background-color: rgb(189, 154, 221);
+}
+
+#html:after {
+  background-color: rgb(205, 188, 221);
+}
+
+#css {
+  left: 250px;
+  bottom: 240px;
+  background-image: url("images/css-square.png");
+  background-size: cover;
+  background-color: rgb(227, 119, 191);
+  box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
+}
+
+#css:before {
+  background-color: rgb(221, 154, 207);
+}
+
+#css:after {
+  background-color: rgb(221, 188, 211);
+}
+
+#typescript {
+  left: 450px;
+  bottom: 200px;
+  background-image: url("images/typescript-square.png");
+  background-size: cover;
+  background-color: rgb(119, 227, 186);
+  box-shadow: -40px 40px 20px rgb(50 50 50/ 15%);
+}
+
+#typescript:before {
+  background-color: rgb(154, 221, 202);
+}
+
+#typescript:after {
+  background-color: rgb(188, 221, 212);
+}
+
+
+#angular {
+  left: 350px;
+  bottom: 40px;
+  background-image: url("images/angular-square.png");
+  background-size: cover;
+  background-color: rgb(119, 193, 227);
+  box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+}
+
+#angular:before {
+  background-color: rgb(154, 189, 221);
+}
+
+#angular:after {
+  background-color: rgb(188, 200, 221);
+}
