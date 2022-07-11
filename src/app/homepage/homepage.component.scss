@@ -67,7 +67,9 @@ p{
   width: 50%;
   height: 350px;
   display: block;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cube {
@@ -98,29 +100,29 @@ p{
 }
 
 #html {
-  left: 100px;
+  left: 0px;
   bottom: 80px;
   background-image: url("images/html-square.png");
   background-size: cover;
-  background-color: rgb(175, 119, 227);
-  box-shadow: -60px 60px 20px rgb(50 50 50/ 15%);
+  background-color: rgb(227, 186, 119);
+  box-shadow: -60px 60px 20px rgba(202, 202, 202, 0.15);
 }
 
 #html:before {
-  background-color: rgb(189, 154, 221);
+  background-color: rgb(221, 198, 154);
 }
 
 #html:after {
-  background-color: rgb(205, 188, 221);
+  background-color: rgb(221, 212, 188);
 }
 
 #css {
-  left: 250px;
+  left: 100px;
   bottom: 240px;
   background-image: url("images/css-square.png");
   background-size: cover;
   background-color: rgb(227, 119, 191);
-  box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
+  box-shadow: -100px 100px 20px rgb(202, 202, 202, 0.15);
 }
 
 #css:before {
@@ -132,36 +134,143 @@ p{
 }
 
 #typescript {
-  left: 450px;
-  bottom: 200px;
+  left: 350px;
+  bottom: 240px;
   background-image: url("images/typescript-square.png");
   background-size: cover;
-  background-color: rgb(119, 227, 186);
-  box-shadow: -40px 40px 20px rgb(50 50 50/ 15%);
+  background-color: rgb(119, 193, 227);
+  box-shadow: -100px 100px 20px rgb(202, 202, 202, 0.15);
 }
 
 #typescript:before {
-  background-color: rgb(154, 221, 202);
+  background-color: rgb(154, 189, 221);
 }
 
 #typescript:after {
-  background-color: rgb(188, 221, 212);
+  background-color: rgb(188, 200, 221);
 }
 
 
 #angular {
-  left: 350px;
-  bottom: 40px;
+  left: 250px;
+  bottom: 80px;
   background-image: url("images/angular-square.png");
   background-size: cover;
-  background-color: rgb(119, 193, 227);
-  box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  background-color: rgb(227, 119, 119);
+  box-shadow: -80px 80px 20px rgb(202, 202, 202, 0.15);
 }
 
 #angular:before {
-  background-color: rgb(154, 189, 221);
+  background-color: rgb(221, 154, 154);
 }
 
 #angular:after {
-  background-color: rgb(188, 200, 221);
+  background-color: rgb(221, 188, 188);
 }
+
+#python {
+  left: 500px;
+  bottom: 80px;
+  background-image: url("images/python-square.png");
+  background-size: cover;
+  background-color: rgb(223, 227, 119);
+  box-shadow: -80px 80px 20px rgb(202, 202, 202, 0.15);
+}
+
+#python:before {
+  background-color: rgb(214, 221, 154);
+}
+
+#python:after {
+  background-color: rgb(221, 216, 188);
+}
+
+#mysql {
+  left: 750px;
+  bottom: 80px;
+  background-image: url("images/mysql-square.png");
+  background-size: cover;
+  background-color: rgb(224, 145, 106);
+  box-shadow: -80px 80px 20px rgb(202, 202, 202, 0.15);
+}
+
+#mysql:before {
+  background-color: rgb(215, 168, 140);
+}
+
+#mysql:after {
+  background-color: rgb(220, 199, 174);
+}
+
+#csharp {
+  left: 600px;
+  bottom: 240px;
+  background-image: url("images/csharp-square.png");
+  background-size: cover;
+  background-color: rgb(121, 227, 119);
+  box-shadow: -100px 100px 20px rgb(202, 202, 202, 0.15);
+}
+
+#csharp:before {
+  background-color: rgb(159, 221, 154);
+}
+
+#csharp:after {
+  background-color: rgb(188, 221, 188);
+}
+
+#dotnet {
+  left: 850px;
+  bottom: 240px;
+  background-image: url("images/dotnet-square.png");
+  background-size: cover;
+  background-color: rgb(171, 119, 227);
+  box-shadow: -100px 100px 20px rgb(202, 202, 202, 0.15);
+}
+
+#dotnet:before {
+  background-color: rgb(188, 154, 221);
+}
+
+#dotnet:after {
+  background-color: rgb(208, 188, 221);
+}
+
+.tech{
+    margin-left: 40px;
+}
+
+.other-tech{
+    margin-left: 40px;
+}
+
+.linkedin{
+    width:40px;
+    margin-bottom: 15px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.skills{
+    color: lightblue;
+}
+
+.technology{
+    margin-bottom: 0px
+}
+
+.individual-skills{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.proficiencies{
+    margin-left: 75px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
