@@ -5,6 +5,7 @@ html, body{
     padding:0;
     background-color: #1c1d25;
     overflow-x: auto;
+    overflow-y: auto;
 }
 
 .toolbar{
@@ -68,9 +69,18 @@ p{
   height: 350px;
   display: block;
   margin-bottom: 20px;
-  margin-left: 30%;
-  margin-right: 70%;
+  margin-left: 15%;
+  margin-right: auto;
 }
+
+.proficiencies{
+    margin-left: 8%;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 350px;
+}
+
 
 .cube {
   position: absolute;
@@ -202,6 +212,23 @@ p{
   background-color: rgb(220, 199, 174);
 }
 
+#micro-service{
+  left: 975px;
+  bottom: 80px;
+  background-image: url("images/micro-service-square.png");
+  background-size: cover;
+  background-color: rgba(220, 220, 220, 0.865);
+  box-shadow: -80px 80px 20px rgb(202, 202, 202, 0.15); ;
+}
+  
+  #micro-service:before {
+  background-color: rgb(169, 166, 163);
+}
+
+#micro-service:after {
+  background-color: rgb(226, 226, 226);
+}
+
 #csharp {
   left: 600px;
   bottom: 240px;
@@ -237,7 +264,7 @@ p{
 }
 
 .tech{
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .other-tech{
@@ -265,12 +292,4 @@ a:link{
     margin-top: 15px;
     font-size: 20px;
 }
-
-.proficiencies{
-    margin-left: 0px;
-    font-size: 20px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
 
