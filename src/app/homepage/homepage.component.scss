@@ -4,8 +4,9 @@ html, body{
     margin:0;
     padding:0;
     background-color: #1c1d25;
-    overflow-x: auto;
+    overflow: hidden;
     overflow-y: auto;
+    
 }
 
 .toolbar{
@@ -269,6 +270,7 @@ p{
 
 .other-tech{
     margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 .linkedin{
@@ -281,7 +283,7 @@ a:link{
 }
 
 .skills{
-    color: lightblue;
+    color: #4e9dc7;
 }
 
 .technology{
@@ -291,5 +293,13 @@ a:link{
 .individual-skills{
     margin-top: 15px;
     font-size: 20px;
+}
+
+.bottom-space{
+    height: 65px;
+}
+
+a:hover{
+  color: white;
 }
 
