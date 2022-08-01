@@ -17,11 +17,58 @@ html, body{
 .project-container{
     padding-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .project-card{
-    width: 200px;
-    height: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: fit-content;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.spacer{
+    height: 30px;
+}
+
+.connect4{
+    width: fit-content;
+}
+
+.website{
+    width: 500px;
+}
+
+.content{
+    margin: 30px;
+}
+
+.description{
+    text-align: left;
+}
+
+.projects{
+    font-size: xxx-large;
+    color: white;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.end-space{
+    height: 50px;
+}
+
+.other{
+    margin-right: 100px;
+    margin-left: 100px;
 }

@@ -270,7 +270,7 @@ p{
 
 .other-tech{
     margin-left: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .linkedin{
@@ -303,3 +303,38 @@ a:hover{
   color: white;
 }
 
+.about-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-title{
+  margin-top: 20px;
+  margin-left: 15px; 
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+}
+
+.about-website{
+  margin-top: 40px;
+  margin-left: 40px;
+  
+}
+.angular{
+  width: 35px;
+}
+
+.about-content{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.paragraph{
+  margin-bottom: 15px;
+  margin-bottom: 5px;
+}
+.paragraph2{
+  margin-top: 5px;
+}
