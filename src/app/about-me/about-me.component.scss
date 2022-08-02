@@ -5,12 +5,15 @@ html, body{
     margin:0;
     padding:0;
     background-color: #1c1d25;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 .hero{
     display: flex;
     justify-content: space-around;
     background-color: #1c1d25;
     padding: 60px;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -29,6 +32,7 @@ p{
 
 .headshot{
     width:250px;
+    height: 340px;
     border-radius:150px;
 }
 
@@ -49,5 +53,9 @@ p{
 .rimington{
     width: 360px;
     margin-left: 40px;
+}
+
+.bottom-space{
+    height: 65px;
 }
 

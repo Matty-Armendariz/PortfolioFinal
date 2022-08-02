@@ -6,6 +6,7 @@ html, body{
     background-color: #1c1d25;
     overflow: hidden;
     overflow-y: auto;
+    overflow-x: auto;
     
 }
 
@@ -314,6 +315,7 @@ a:hover{
   font-size: 40px;
   color: white;
   font-weight: 200;
+  line-height: 1.2;
 }
 
 .about-website{
@@ -322,7 +324,9 @@ a:hover{
   
 }
 .angular{
-  width: 35px;
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
 }
 
 .about-content{

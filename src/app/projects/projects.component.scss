@@ -4,6 +4,8 @@ html, body{
     margin:0;
     padding:0;
     background-color: #1c1d25;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .hero{
@@ -19,6 +21,7 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: fit-content;
 }
 
 .project-card{
@@ -49,6 +52,7 @@ html, body{
 
 .description{
     text-align: left;
+    font-size: medium;
 }
 
 .projects{
